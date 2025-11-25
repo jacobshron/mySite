@@ -2,17 +2,26 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.JS-container {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div {
+    display: infleline-block;
 }
 
 .JS-container img {
     display: inline-block;
     width: 100px;
+    padding: 25px;
+}
+
+.sections h1 {
+    display: inline-block;
     padding: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 30px;
+    font: small-caps bold 30px/1.5 "Helvetice Neue", sans-serif;
 }
