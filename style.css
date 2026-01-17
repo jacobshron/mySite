@@ -1,4 +1,5 @@
 @import url('/css/comico.css');
+@import url('/css/recia.css');
 
 /* ----- */
 
@@ -9,13 +10,18 @@ body {
 }
 
 h4 {
-    font: normal 16px "Helvetica Neue", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
 }
 
 h4 a {
-    font: normal 16px "Helvetica Neue", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
     color: rgb(72, 224, 12);   
-    text-decoration: underline; 
+}
+
+h4 a:hover {
+    text-decoration: underline;
 }
 
 .navbar {
@@ -112,5 +118,16 @@ img {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Comico-Regular";
+}
+
+#about-me p {
+    font-family: 'Recia-Regular', serif;
+}
+
+#about-me {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 30px;
 }
