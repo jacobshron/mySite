@@ -127,7 +127,22 @@ h1 {
 }
 
 #about-me {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
     padding-top: 30px;
+}
+
+#resume-text {
+    font-family: 'Recia-Regular', serif;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+#resume-text a {
+    font-family: 'Recia-Regular', serif;
+    color: rgb(56, 30, 161);
+}
+
+#resume-text a:hover {
+    text-decoration: underline;
 }
